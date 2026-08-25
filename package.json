@@ -1,0 +1,9 @@
+{
+  "name": "collabflow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multi-tenant real-time team collaboration SaaS",
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/api"
+  }
+}
