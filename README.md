@@ -22,27 +22,33 @@ The system uses a multi-tenant architecture so multiple organizations can use th
 ## Technology Stack
 
 ### Frontend
+
 - React
 - TypeScript
 - Vite
 
 ### Backend
+
 - Node.js
 - Express
 - TypeScript
 
 ### Database
+
 - MongoDB
 
 ### Infrastructure
+
 - Redis
 - Docker
 - Docker Compose
 
 ### Real-Time
+
 - Socket.IO
 
 ### Background Jobs
+
 - BullMQ
 
 ## Project Status
