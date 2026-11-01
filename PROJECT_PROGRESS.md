@@ -39,10 +39,10 @@ Build a production-style multi-tenant real-time team collaboration SaaS within a
 
 ## Development Tooling
 
-- [X] ESLint
-- [X] Prettier
+- [x] ESLint
+- [x] Prettier
 - [x] Environment configuration foundation
-- [X] Environment validation
+- [x] Environment validation
 
 ## Database
 

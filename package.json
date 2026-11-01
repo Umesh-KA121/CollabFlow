@@ -15,7 +15,12 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "test": "npm test --workspaces"
+    "test": "npm test --workspaces",
+    "infra:up": "docker compose up -d",
+    "infra:down": "docker compose down",
+    "infra:restart": "docker compose restart",
+    "infra:ps": "docker compose ps",
+    "infra:logs": "docker compose logs -f"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

@@ -8,19 +8,19 @@ const envSchema = z.object({
 
   MONGODB_URI: z.string().min(1),
 
-  REDIS_URL: z.string().min(1),
+  REDIS_URL: z.string().url(),
 
   ACCESS_TOKEN_SECRET: z.string().min(16),
 
   REFRESH_TOKEN_SECRET: z.string().min(16),
 
-  CLIENT_URL: z.url(),
+  CLIENT_URL: z.string().url(),
 });
 
 const parsedEnv = envSchema.safeParse(process.env);
 
 if (!parsedEnv.success) {
-  console.error('❌ Invalid environment configuration:');
+  console.error('Invalid environment configuration:');
   console.error(parsedEnv.error.flatten().fieldErrors);
 
   process.exit(1);
