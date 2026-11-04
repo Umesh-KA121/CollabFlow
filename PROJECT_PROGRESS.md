@@ -36,6 +36,16 @@ Build a production-style multi-tenant real-time team collaboration SaaS within a
 - [x] Health endpoint
 - [x] Environment configuration
 - [x] Environment validation
+- [x] Axios installation
+- [x] Centralized Axios client
+- [x] Environment-based API configuration
+- [x] API response types
+- [x] Health service
+- [x] TanStack Query setup
+- [x] API status component
+- [x] Loading and error handling
+- [x] Frontend-backend integration
+- [x] Integration verification
 
 ## Development Tooling
 
